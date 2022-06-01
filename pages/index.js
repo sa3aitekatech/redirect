@@ -22,7 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Selamat Datang Di <a href="/">NagaGG !!</a>
+          Selamat Datang Di NagaGG !!
         </h1>
 
         <p className={styles.description}>
@@ -33,16 +33,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://nagagg.top"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Made With Love By {'Cendol Cilok '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+          Made With Love By {'Cendol Cilok '}          
       </footer>
     </div>
   )
